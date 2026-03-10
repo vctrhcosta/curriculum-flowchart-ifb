@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* React Flow overrides for nodes to be clickable */
+.react-flow__node {
+  cursor: default !important;
+}
